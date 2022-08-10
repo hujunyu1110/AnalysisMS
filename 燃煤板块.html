@@ -1,0 +1,212 @@
+<!DOCTYPE html height:100% width:100%>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>新能源对环境影响的监测分析系统</title>
+        <link href="./css/bootstrap.min.css" rel="stylesheet" />
+        <link href="./css/common.css" rel="stylesheet" />
+        <script src="./script/jquery.min.js"></script>
+        <script src="./script/echarts.min.js"></script>
+        <script src="./script/bootstrap.min.js"></script>
+    </head>
+
+    <body height:100% width:100%>
+        <div class="container" style="height: 100%;width: 99%;">
+
+            <div class="row">
+                <div class="col-xs-6 col-sm-11 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 2px;padding-bottom: 2px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;"
+                            onclick="window.location='./index.html'">
+                            新能源对环境影响的监测分析系统</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-xs-6 col-sm-3 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 2px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">耗煤量（吨）
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-2 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 2px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;"><input type="text" id="mei">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 2px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">燃煤废气量（万标立方米）：
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 2px;padding-bottom: 0px;">
+                        <div id="meires"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-xs-6 col-sm-3 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 2px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">煤中全硫含量：
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-2 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 2px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;"><input type="text" id="liu">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 2px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">SO2排放量（吨）：
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 2px;padding-bottom: 0px;">
+                        <div id="liures"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-xs-6 col-sm-3 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 2px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">脱硫效率：
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-2 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 2px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;"><input type="text"
+                                id="tuoliu">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 2px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">NOX排放量（吨）：
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 2px;padding-bottom: 0px;">
+                        <div id="tuoliures"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="row">
+                <div class="col-xs-6 col-sm-11 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 7%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 2px;">
+                        <div id="SummitBtn"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            提交并计算</div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <script>
+            $(document).ready(function (){
+                $("#SummitBtn").click(function (){
+                    var incN = 0.015;
+                    var tranNOX = 0.25;
+                    var mei = $("#mei").val();
+                    var liu = $("#liu").val();
+                    var tuoliu = $("#tuoliu").val();
+
+                    var meires = 0;
+                    if(mei != "" && mei != null)
+                        meires = mei * 0.78936;
+                    else meires = "错请填写耗煤量误";
+                    var liures = 0;
+                    if(liu != "" && liu != null && tuoliu != "" && tuoliu != null && mei != "" && mei != null)
+                        liures = 2 * 0.8 * mei * (liu/100) * (1 - tuoliu/100);
+                    else liures = "请填写耗煤量/含硫量/脱硫效率";
+                    var tuoliures = 0;
+                    if(mei != "" && mei != null)
+                        tuoliures = 1.63 * mei * (0.015 * 0.25 + 0.000938);
+                    else tuoliures = "请填写耗煤量"
+
+                    $("#meires").text(meires);
+                    $("#liures").text(liures);
+                    $("#tuoliures").text(tuoliures);
+                });
+            });
+        </script>
+    </body>
+
+</html>

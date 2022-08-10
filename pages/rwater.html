@@ -1,0 +1,1290 @@
+<!DOCTYPE html height:100% width:100%>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>有轨电车竣工环境监测系统-废水</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet" />
+        <link href="../css/common.css" rel="stylesheet" />
+        <script src="../script/jquery.min.js"></script>
+        <script src="../script/echarts.min.js"></script>
+        <script src="../script/bootstrap.min.js"></script>
+        <script src="../script/cookie.js"></script>
+        <script src="../script/rwater.js"></script>
+    </head>
+
+    <body height:100% width:100%>
+        <div class="container" style="height: 100%;width: 99%;">
+
+            <div class="row">
+                <div class="col-xs-6 col-sm-3 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 2px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white; border-radius: 2px 2px 0px
+                            0px;"
+                            onclick="window.location='../pages/water_quality.html'">
+                            水质监测分析系统</div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 2px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white; border-radius: 2px 2px 0px
+                            0px;"
+                            onclick="window.location='../pages/underwater.html'">
+                            地下水环境监测分析系统</div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-5 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 2px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            有轨电车竣工环境监测系统</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-xs-6 col-sm-3 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 0px;padding-bottom: 2px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white; border-radius: 0px 0px 2px
+                            2px;"
+                            onclick="window.location='../pages/water_quality.html'">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 0px;padding-bottom: 2px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;border-radius: 0px 0px 2px 2px;"
+                            onclick="window.location='../pages/underwater.html'">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 2px;padding-bottom: 2px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;"
+                            onclick="window.location='../pages/noice.html'">
+                            噪音</div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 2px;padding-bottom: 2px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;"
+                            onclick="window.location='../pages/shack.html'">
+                            振动</div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-2 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 2px;padding-bottom: 2px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;"
+                            onclick="window.location='../pages/rwater.html'">
+                            废水</div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 2px;padding-bottom: 2px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;"
+                            onclick="window.location='../pages/rgass.html'">
+                            废气</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-6 col-sm-11 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 2px;padding-bottom: 2px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;"
+                            onclick="window.location='../index.html'">
+                            有轨电车竣工环境监测系统-废水</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-xs-6 col-sm-2 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 2px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            监测项目</div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-9 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 2px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;border-radius:
+                            2px 2px 0px 0px;">
+                            监测结果（2天，每天4次）</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-xs-6 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        0px;padding-top: 0px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;border-radius:
+                            0px 0px 0px 2px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 0px;padding-right:
+                        4px;padding-top: 0px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;border-radius:
+                            0px 0px 2px 0px;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-3 col-sm-4 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        2px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            第一天</div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-4 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            第二天</div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 0px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            是否达标</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-xs-6 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        2px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;border-radius:
+                            2px 2px 0px 0px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">pH
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        2px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d111" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d112" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d113" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d114" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d121" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d122" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d123" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d124" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 0px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="d1"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-6 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        2px;padding-top: 0px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;border-radius: 0px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">CODcr
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        2px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d211" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d212" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d213" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d214" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d221" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d222" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d223" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d224" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 0px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="d2"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-6 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        2px;padding-top: 0px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;border-radius: 0px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">BOD5
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        2px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d311" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d312" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d313" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d314" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d321" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d322" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d323" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d324" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 0px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="d3"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-6 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        2px;padding-top: 0px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;border-radius: 0px;">废
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">SS
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        2px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d411"
+                                style="width:100%;height: 100%;
+                                border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d412" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d413" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d414" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d421" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d422" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d423" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d424" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 0px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="d4"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-6 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        2px;padding-top: 0px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;border-radius: 0px;">水
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">NH3-N
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        2px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d511" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d512" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d513" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d514" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d521" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d522" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d523" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d524" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 0px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="d5"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-6 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        2px;padding-top: 0px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;border-radius: 0px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">石油类
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        2px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d611" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d612" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d613" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d614" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d621" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d622" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d623" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d624" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 0px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="d6"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-6 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 8%;padding-left: 2px;padding-right:
+                        2px;padding-top: 0px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;border-radius: 0px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 8%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">阴离子表面活性剂
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 8%;padding-left: 2px;padding-right:
+                        2px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d711" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 8%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d712" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 8%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d713" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 8%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d714" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 8%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d721" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 8%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d722" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 8%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d723" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 8%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d724" style="width:
+                                100%;height: 100%; border-color:
+                                rgab(0,0,0,0);"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 8%;padding-left: 0px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="d7"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-6 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        2px;padding-top: 0px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;border-radius: 0px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">动植物油
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        2px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d811"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d812""></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d813"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d814"></div>
+                    </div>
+                </div>
+
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d821"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d822"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d823"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="EndpointSecurityDetail"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            <input type="text" id="d824"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-1 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 4%;padding-left: 0px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 0px;">
+                        <div id="d8"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-xs-6 col-sm-11 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 7%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 2px;">
+                        <div id="SummitBtn"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                            提交并计算</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-6 col-sm-11 firstFlow">
+                    <!--Endpoint Security Detail-->
+                    <div style="height: 40%;padding-left: 2px;padding-right:
+                        4px;padding-top: 4px;padding-bottom: 2px;">
+                        <div id="PieWaterQuality"
+                            class="firstFlowFirstColm"
+                            style="color: white;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </body>
+
+</html>
